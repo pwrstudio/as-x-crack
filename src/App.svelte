@@ -27,11 +27,15 @@
   h1 {
     text-align: center;
     font-family: monospace;
-    background: grey;
+    background: darkgrey;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
+    color: red;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: normal;
   }
 </style>
 

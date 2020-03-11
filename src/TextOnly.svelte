@@ -61,6 +61,27 @@
   .spaced {
     padding-right: 2vw;
   }
+
+  @media only screen and (max-width: 700px) {
+    .poetry {
+      flex-direction: column;
+    }
+
+    .word {
+      display: block;
+      font-size: 24vw;
+      letter-spacing: -0.3vw;
+    }
+
+    .spaced {
+      padding-right: 0;
+    }
+
+    .face {
+      width: 50vw;
+      height: 50vw;
+    }
+  }
 </style>
 
 <div class="poetry">

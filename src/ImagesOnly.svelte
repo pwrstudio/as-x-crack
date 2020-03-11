@@ -60,6 +60,22 @@
     width: 31vw;
     height: 31vw;
   }
+
+  @media only screen and (max-width: 700px) {
+    .poetry {
+      flex-direction: column;
+    }
+
+    .spaced {
+      padding-right: 0;
+      margin-bottom: 2vw;
+    }
+
+    .face {
+      width: 40vw;
+      height: 40vw;
+    }
+  }
 </style>
 
 <div class="poetry">

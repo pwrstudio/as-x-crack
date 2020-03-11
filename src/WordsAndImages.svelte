@@ -84,7 +84,8 @@
     background: black;
     width: 100vw;
     height: 100vh;
-    background: orangered;
+    background-color: orangered;
+    background-color: #00ff00;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,12 +122,49 @@
     width: 100vw;
     height: 100vh;
     object-fit: cover;
+    /* opacity: 0.6; */
+    mix-blend-mode: difference;
+    /* filter: grayscale(1); */
+  }
+
+  .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.4;
+    mix-blend-mode: multiply;
+    filter: grayscale(1);
+  }
+
+  @media only screen and (max-width: 700px) {
+    .poetry {
+      flex-direction: column;
+    }
+
+    .word {
+      display: block;
+      font-size: 24vw;
+      letter-spacing: -0.3vw;
+    }
+
+    .spaced {
+      padding-right: 0;
+    }
+
+    .face {
+      width: 50vw;
+      height: 50vw;
+    }
   }
 </style>
 
 <div class="poetry">
 
-  <!-- <video src="/fire.mp4" autoplay loop muted /> -->
+  <video src="/media/fire.mp4" autoplay loop muted />
+  <!-- <img src="/media/hill.png" class="bg" /> -->
 
   <!-- 11111 -->
   {#if wordOne}
