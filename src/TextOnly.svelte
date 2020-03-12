@@ -34,7 +34,7 @@
 </script>
 
 <style>
-  .poetry {
+  .text-only {
     width: 600px;
     height: 600px;
     background: black;
@@ -44,6 +44,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
   }
 
   .word {
@@ -62,8 +63,20 @@
     padding-right: 2vw;
   }
 
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    /* opacity: 0.6; */
+    mix-blend-mode: difference;
+    /* filter: grayscale(1); */
+  }
+
   @media only screen and (max-width: 700px) {
-    .poetry {
+    .text-only {
       flex-direction: column;
     }
 
@@ -84,7 +97,9 @@
   }
 </style>
 
-<div class="poetry">
+<div class="text-only">
+
+  <video src="/media/hill.mp4" autoplay loop muted />
 
   <!-- 11111 -->
   {#if wordOne}

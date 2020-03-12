@@ -64,7 +64,9 @@
     background: black;
     width: 100vw;
     height: 100vh;
-    background: orangered;
+    background: rgb(255, 68, 0);
+    background: rgb(255, 0, 200);
+
     /* background: #00ff00;
     background: red; */
     display: flex;
@@ -74,7 +76,6 @@
 
   .word {
     display: inline-block;
-    color: black;
     object-fit: cover;
     text-align: center;
     font-family: Arial;
@@ -82,6 +83,7 @@
     font-size: 9vw;
     user-select: none;
     letter-spacing: -0.3vw;
+    color: black;
   }
 
   .spaced {
@@ -91,9 +93,8 @@
   .slapstick {
     letter-spacing: -0.2vw;
     z-index: 100;
-    font-size: 12vw;
+    font-size: 13vw;
     font-family: "comic_marker_deluxeregular" !important;
-    /* color: #00ff00; */
     transform: rotateZ(20deg) translateY(-20px);
   }
 

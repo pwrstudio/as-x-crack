@@ -84,7 +84,7 @@
     background: black;
     width: 100vw;
     height: 100vh;
-    background-color: orangered;
+    background: rgb(255, 68, 0);
     background-color: #00ff00;
     display: flex;
     justify-content: center;
@@ -146,8 +146,8 @@
 
     .word {
       display: block;
-      font-size: 24vw;
-      letter-spacing: -0.3vw;
+      font-size: 28vw;
+      letter-spacing: -0.5vw;
     }
 
     .spaced {
@@ -155,8 +155,8 @@
     }
 
     .face {
-      width: 50vw;
-      height: 50vw;
+      width: 60vw;
+      height: 60vw;
     }
   }
 </style>

@@ -10,7 +10,8 @@
   }
 
   p {
-    max-width: 60ch;
+    width: 60ch;
+    max-width: 90vw;
     margin-left: auto;
     margin-right: auto;
     font-size: 22px;

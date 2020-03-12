@@ -121,7 +121,7 @@
     background: black;
     width: 100vw;
     height: 100vh;
-    background: orangered;
+    background: rgb(255, 68, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,8 +153,10 @@
     z-index: 100;
     font-size: 12vw;
     font-family: "comic_marker_deluxeregular" !important;
-    /* color: #00ff00; */
+    color: #00ff00;
     transform: rotateZ(20deg) translateY(-20px);
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: black;
   }
 
   .symbol {
@@ -166,10 +168,19 @@
       flex-direction: column;
     }
 
+    .slapstick {
+      font-size: 28vw;
+      transform: rotateZ(20deg);
+    }
+
+    .symbol {
+      width: 50vw;
+    }
+
     .word {
       display: block;
-      font-size: 24vw;
-      letter-spacing: -0.3vw;
+      font-size: 28vw;
+      letter-spacing: -0.5vw;
     }
 
     .spaced {
@@ -177,16 +188,8 @@
     }
 
     .face {
-      width: 50vw;
-      height: 50vw;
-    }
-
-    .slapstick {
-      font-size: 26vw;
-    }
-
-    .symbol {
-      width: 50vw;
+      width: 60vw;
+      height: 60vw;
     }
   }
 </style>

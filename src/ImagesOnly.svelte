@@ -39,13 +39,12 @@
 </script>
 
 <style>
-  .poetry {
+  .images-only {
     width: 600px;
     height: 600px;
     background: black;
     width: 100vw;
     height: 100vh;
-    background: #00ff00;
     background: rgb(255, 68, 0);
     display: flex;
     justify-content: center;
@@ -62,7 +61,8 @@
   }
 
   @media only screen and (max-width: 700px) {
-    .poetry {
+    .images-only {
+      height: 190vw;
       flex-direction: column;
     }
 
@@ -72,13 +72,13 @@
     }
 
     .face {
-      width: 40vw;
-      height: 40vw;
+      width: 60vw;
+      height: 60vw;
     }
   }
 </style>
 
-<div class="poetry">
+<div class="images-only">
 
   <!-- 11111 -->
   {#if faceOne}
