@@ -49,6 +49,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
   }
 
   .spaced {
@@ -58,6 +59,17 @@
   .face {
     width: 31vw;
     height: 31vw;
+    z-index: 1000;
+  }
+
+  .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.2;
   }
 
   @media only screen and (max-width: 700px) {
@@ -79,6 +91,8 @@
 </style>
 
 <div class="images-only">
+
+  <img src="/media/wall.png" class="bg" />
 
   <!-- 11111 -->
   {#if faceOne}

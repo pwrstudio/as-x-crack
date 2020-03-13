@@ -93,7 +93,7 @@
   .slapstick {
     letter-spacing: -0.2vw;
     z-index: 100;
-    font-size: 13vw;
+    font-size: 12vw;
     font-family: "comic_marker_deluxeregular" !important;
     transform: rotateZ(20deg) translateY(-20px);
   }

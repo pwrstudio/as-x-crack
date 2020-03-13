@@ -326,6 +326,7 @@ export const combos = [
     ['ANGLE', 'LEAK', 'BAG'],
     ['LIQ', 'PUMP', 'WORLD'],
     ['WEPT', 'JOY', 'LIQ'],
+    ['TEAR', 'STARE', 'GRIN'],
     ['SICK', 'WORLD', 'HA'],
     ['NO', 'CRASH', 'TREE'],
     ['PAIN', 'LESS', 'DIP'],
@@ -336,6 +337,11 @@ export const combos = [
     ['TEAR', 'BOT', 'LESS'],
     ['TOUCH', 'FACE', 'RIG'],
     ['SUN', 'FACE', 'GAG'],
+    ['LIT', 'LESS', 'WORLD'],
+    ['TOO', 'SOON', 'SUN'],
+    ['RAT', 'PAIN', 'SCALE'],
+    ['SINK', 'SONG', 'LAK'],
+    ['TOUCH', 'MEE', 'FACE']
 ];
 
 export const imageIndices = [

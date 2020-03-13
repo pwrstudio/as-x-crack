@@ -151,12 +151,11 @@
   .slapstick {
     letter-spacing: -0.2vw;
     z-index: 100;
-    font-size: 12vw;
+    font-size: 14vw;
     font-family: "comic_marker_deluxeregular" !important;
     color: #00ff00;
     transform: rotateZ(20deg) translateY(-20px);
-    -webkit-text-stroke-width: 5px;
-    -webkit-text-stroke-color: black;
+    text-shadow: 0px 10px black;
   }
 
   .symbol {

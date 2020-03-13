@@ -41,6 +41,7 @@
     width: 100vw;
     height: 100vh;
     background: rgb(255, 68, 0);
+    background: #00ff00;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,6 +58,7 @@
     font-size: 10vw;
     user-select: none;
     letter-spacing: -0.5vw;
+    z-index: 100;
   }
 
   .spaced {
@@ -73,6 +75,16 @@
     /* opacity: 0.6; */
     mix-blend-mode: difference;
     /* filter: grayscale(1); */
+  }
+
+  .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.2;
   }
 
   @media only screen and (max-width: 700px) {
@@ -99,7 +111,7 @@
 
 <div class="text-only">
 
-  <video src="/media/hill.mp4" autoplay loop muted />
+  <img src="/media/window.png" class="bg" />
 
   <!-- 11111 -->
   {#if wordOne}
